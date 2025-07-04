@@ -25,6 +25,7 @@ interface RootLayoutProps {
 }
 
 export const metadata: Metadata = {
+    metadataBase: new URL("https://solframe-ai.vercel.app"),
   applicationName: APP_NAME,
   title: {
     default: APP_DEFAULT_TITLE,
